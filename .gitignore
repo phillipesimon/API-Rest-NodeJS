@@ -1,3 +1,4 @@
+# eslint padrao rocketseat (npm i eslint @rocketseat/eslint-config -D)
 # Logs
 logs
 *.log
