@@ -43,7 +43,7 @@ build/Release
 node_modules/
 api/
 jspm_packages/
-temp/
+db/
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
