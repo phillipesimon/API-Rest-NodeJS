@@ -1,4 +1,4 @@
-import { knex as setupKnext, Knex } from 'knex'
+import { knex as setupKnex, Knex } from 'knex'
 import { env } from './env'
 
 if (!process.env.DATABASE_URL) {
@@ -17,4 +17,4 @@ export const config: Knex.Config = {
   },
 }
 
-export const knex = setupKnext(config)
+export const knex = setupKnex(config)
